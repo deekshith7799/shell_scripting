@@ -8,12 +8,11 @@ echo -e "enter  1st value: \c"
 read -r a
 echo -e "enter 2nd value: \c"
 read -r b
-test $a -lt $b ;echo $? 'test $a -lt $b ;echo $?'
-
-test $a -le $b ;echo $?
-test $a -gt $b ;echo $?
-test $a -ge $b ;echo $?
-test $a -eq $b ;echo $?
-test $a -ne $b ;echo $?
+test $a -lt $b ;echo 'test $a -lt $b ;echo $?
+#test $a -le $b ;echo $? 
+#test $a -gt $b ;echo  " for $a greater then $b is $? "
+#test $a -ge $b ;echo  " for $a greater then or equal $b is $? "
+#test $a -eq $b ;echo  " for $a equal then $b is $? "
+#test $a -ne $b ;echo  " for $a not equal  then $b is $? "
 
 # END #

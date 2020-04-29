@@ -4,12 +4,14 @@
 #Created Date: Tue Apr 28 12:07:11 IST 2020
 #Modified Date:
 # START #
-echo -e "Please Enter 4 values followed by space: \c"
+echo -e "Please Enter 1 value: \c"
 read -r a
+echo -e "Please Enter b value: \c"
 read -r b
+echo -e "Please Enter c value: \c"
 read -r c
+echo -e "Please Enter d value: \c"
 read -r d
-
 if [ $a -gt $b -a $b -gt $c -a $c -gt $d ]
 then
 echo " $a is greater number "

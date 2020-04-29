@@ -8,7 +8,7 @@ echo -e "Enter a value: \c"
 read -r a
 echo -e "Enter b value: \c"
 read -r b
-echo " a+b is $((a+b))"
+echo " a+b is $(($a+$b))"
 echo " a-b is $((a-b))"
 echo " a/b is $((a/b))"
 echo " a*b is $((a*b))"

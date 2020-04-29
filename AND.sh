@@ -4,12 +4,12 @@
 #Created Date: Tue Apr 28 11:38:33 IST 2020
 #Modified Date:
 # START #
-echo -e "Enter any number: \c"
+echo  "Enter any number: "
 read -r b
-if [ $b -lt -a $b -gt 10 ]
+if [ $b -lt 10  && $b -gt 10 ]
 then
  echo " you are number is not equal to 10 "
 else
- echo " You are number is greater then 10 are less then 10 "
+ echo " You are number is greater then 10 or less then 10 "
 fi 
 # END #

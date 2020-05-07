@@ -1,0 +1,5 @@
+#!/bin/bash
+function testing () {
+echo  " Just Testing Function "
+}
+testing

@@ -4,7 +4,7 @@
 #Created Date: Tue Apr 28 11:15:51 IST 2020
 #Modified Date:
 # START #
-echo -e"Enter any number: \c"
+echo "Enter any number: \c"
 read -r a
 if [ $a -lt 10 ]
 then
